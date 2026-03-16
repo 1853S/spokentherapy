@@ -43,7 +43,7 @@ header { position: fixed; top: 0; left: 0; width: 100%; background: rgba(255, 25
 header.scrolled { padding: 10px 0; box-shadow: var(--shadow-md); background: rgba(255, 255, 255, 0.95); }
 .nav-container { display: flex; justify-content: space-between; align-items: center; }
 .logo { display: flex; align-items: center; gap: 12px; }
-.logo-img { height: 120px; width: auto; filter: drop-shadow(0 0 8px rgba(69, 154, 142, 0.3)); }
+.logo-img { height: 50px; width: auto; filter: drop-shadow(0 0 8px rgba(69, 154, 142, 0.3)); }
 .logo-text { font-family: var(--font-heading); font-weight: 800; font-size: 1.5rem; color: var(--clr-dark-teal); letter-spacing: -0.5px; }
 .nav-links { display: flex; gap: 30px; align-items: center; }
 .nav-links a { font-family: var(--font-heading); font-weight: 600; font-size: 1rem; color: var(--clr-text); position: relative; }
@@ -95,7 +95,7 @@ footer { background: var(--clr-dark-teal); color: #FFF; padding: 80px 0 20px; }
 .footer-top { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 40px; margin-bottom: 50px; }
 .footer-brand { max-width: 400px; }
 .footer-logo { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
-.footer-logo-img { height: 120px; filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255,255,255,0.2)); }
+.footer-logo-img { height: 50px; filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255,255,255,0.2)); }
 .footer-logo h3 { color: #FFF; font-size: 1.8rem; letter-spacing: -0.5px; }
 .inspirational-line { font-style: italic; color: #A0B2B9; font-size: 1.1rem; }
 .footer-socials h4 { color: #FFF; margin-bottom: 20px; font-size: 1.2rem; }
